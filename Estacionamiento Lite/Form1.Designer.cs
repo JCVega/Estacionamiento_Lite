@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtFolio = new System.Windows.Forms.NumericUpDown();
@@ -81,7 +82,7 @@
             this.txtCabecera.Name = "txtCabecera";
             this.txtCabecera.Size = new System.Drawing.Size(240, 134);
             this.txtCabecera.TabIndex = 3;
-            this.txtCabecera.Text = "*********ESTACIONAMIENTO*******";
+            this.txtCabecera.Text = "*********ESTACIONAMIENTO*******\r\n";
             // 
             // label3
             // 
@@ -98,15 +99,13 @@
             this.txtPie.Location = new System.Drawing.Point(13, 275);
             this.txtPie.Multiline = true;
             this.txtPie.Name = "txtPie";
-            this.txtPie.Size = new System.Drawing.Size(240, 153);
+            this.txtPie.Size = new System.Drawing.Size(240, 205);
             this.txtPie.TabIndex = 5;
-            this.txtPie.Text = "Modelo__________________________\r\n\r\nColor:__________________________\r\n\r\nHora Entr" +
-    "ada:___________________\r\n\r\nHora Salida:____________________\r\n\r\nCobro:___________" +
-    "_______________\r\n";
+            this.txtPie.Text = resources.GetString("txtPie.Text");
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(91, 434);
+            this.button1.Location = new System.Drawing.Point(91, 488);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 6;
@@ -118,7 +117,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(267, 469);
+            this.ClientSize = new System.Drawing.Size(267, 523);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtPie);
             this.Controls.Add(this.label3);

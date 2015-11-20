@@ -120,4 +120,20 @@
   <metadata name="printDocument1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="txtPie.Text" xml:space="preserve">
+    <value>Modelo__________________________
+
+Color:__________________________
+
+Llave:     SI_______   NO_______
+
+Carril:_________________________
+
+Hora Entrada:___________________
+
+Hora Salida:____________________
+
+Cobro:__________________________
+</value>
+  </data>
 </root>

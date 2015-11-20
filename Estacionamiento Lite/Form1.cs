@@ -37,8 +37,8 @@ namespace Estacionamiento_Lite
             List<string> cabecera= txtCabecera.Text.Trim().Split('\n','\r').ToList();
             List<string> pie = txtPie.Text.Trim().Split('\n', '\r').ToList();
             cadenaSalida.AddRange(acomodarALargoHoja(cabecera));
-            cadenaSalida.Add("Folio:"+txtFolio.Value.ToString());
             cadenaSalida.AddRange(acomodarALargoHoja(pie));
+            cadenaSalida.Add("Folio:" + txtFolio.Value.ToString());
 
             e.Graphics.DrawString(string.Join(Environment.NewLine,cadenaSalida),
                 new Font("Consolas", (float)9.75), Brushes.Black, new Point(0, 0));
